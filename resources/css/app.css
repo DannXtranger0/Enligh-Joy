@@ -4,9 +4,10 @@
 
 @layer components{
 
+
+
     .btn{
-        @apply bg-[#FFC107] text-white font-semibold tracking-wider text-center inline-block w-36 py-1.5 rounded-lg
-        hover:bg-[#FFA000] transition-all
+        @apply bg-[#FFC107] text-white font-semibold tracking-wider text-center inline-block w-36 py-1.5 rounded-lg hover:bg-[#FFA000]   hover:scale-125 duration-150 transition-all
     }
     .title{
         @apply text-[#2C3E50] text-3xl font-bold tracking-wider
@@ -14,5 +15,7 @@
     .paragraph{
         @apply text-paragraph-color-0 text-xl tracking-wider
     }
+
+   
 
 }
