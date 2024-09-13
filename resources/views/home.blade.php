@@ -30,19 +30,24 @@
             <section class="relative ">
             
                 {{-- slider Botones--}}
-                <div class="absolute flex justify-between w-full top-1/2 transform -translate-y-1/2 px-5 -z-10 ">
-                    <button class="cursor-pointer ">
-                        <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
-                    </button>
-    
-                    <button class="cursor-pointer ">
-                        <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
-                    </button>
-                </div>
+                {{-- <div class="absolute flex justify-between w-full top-1/2 transform -translate-y-1/2 px-5 -z-10 ">
+                   
+                  
+                </div> --}}
         
+                <button class="cursor-pointer absolute left-5 top-1/2 transform -translate-y-1/2">
+                    <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
+                </button>
+
+                <button class="cursor-pointer absolute right-5 top-1/2 transform -translate-y-1/2">
+                    <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
+                </button>
+
 
                 {{-- Slider Lecciones --}}
                 <div class="flex justify-center space-x-10 ">
+
+             
 
                     <x-card-lesson
                         title="Verb To Be"
@@ -97,15 +102,14 @@
             <p class="paragraph mb-8">Test your knowledge of English with our challenges!</p>
 
             {{-- slider Botones--}}
-            <div class="absolute flex justify-between w-full top-1/2 transform -translate-y-1/2 px-5 -z-10 ">
-                <button>
-                    <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
-                </button>
+            <button class="cursor-pointer absolute left-5 top-1/2 transform -translate-y-1/2">
+                <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
+            </button>
 
-                <button>
-                    <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
-                </button>
-            </div>
+            <button class="cursor-pointer absolute right-5 top-1/2 transform -translate-y-1/2">
+                <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
+            </button>
+
     
 
             {{-- Slider Lecciones --}}
