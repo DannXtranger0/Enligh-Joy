@@ -66,9 +66,12 @@
         
         <x-subtitle id="uses">Uses of the Verb To Be</x-subtitle>
 
+
         {{-- squares --}}
 
-        <div class=" flex justify-center">
+        <div class=" flex justify-center relative">
+            <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 left-0 -z-50 h-[80rem] " >
+
 
             <section class="grid grid-cols-2 gap-14  "> 
 
@@ -111,7 +114,9 @@
 
         <x-subtitle id="que-neg">Questions and Negations with To Be</x-subtitle>
  
-        <article class="space-y-48">
+        <article class="space-y-48 relative">
+            <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 right-0 -z-50 h-[80rem] scale-x-[-1]" >
+
             <section class="flex ml-20 -space-x-20 space-y-32">
                 <div class="bg-[#394AB5] w-2/5 rounded-lg h-fit p-10">
                     <img src="{{asset('images\men-chatting.png')}}" alt="">

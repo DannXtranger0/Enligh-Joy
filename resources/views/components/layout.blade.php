@@ -43,7 +43,11 @@
     <main>
         {{$slot}}
     </main>
+    
 
+    <footer class="bg-blue-principal-0 h-14  flex items-center justify-center mt-24">
+        <p class="text-white title text-lg font-semibold">@EnglishJoy</p>
+    </footer>
     
 </body>
 </html>

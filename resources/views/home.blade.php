@@ -20,7 +20,7 @@
         {{-- LECCIONES --}}
 
 
-        <section class="mt-12 text-center relative">
+        <section class="mt-12 text-center relative ">
 
             <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 left-0 -z-50 h-[80rem]" >
 
@@ -163,7 +163,7 @@
     {{-- Tips para aprender ingles --}}
 
 
-    <section class="px-5 space-y-36 -my-14 relative">
+    <section class="px-5 space-y-36 -my-14 relative mb-5">
         <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 left-0 -z-50 h-[80rem]" >
 
         <h2 class="title text-center ">Tips to learn English faster</h2>
@@ -202,9 +202,4 @@
     
 
 </x-layout>
-    {{-- Header --}}
-        {{-- <x-header /> --}}
-
-        {{-- banner --}}
-
-
+   
