@@ -15,7 +15,7 @@
 
         <p class="paragraph text-center px-32">Learning English is easier than you think! With lessons designed for A1-A2 learners, you'll build strong basics while having fun.</p>
         {{-- Nivel --}}
-
+        
         <div class="bg-blue-principal-0 w-1/3 h-12 items-center rounded-full flex  ml-10 space-x-8 my-16 ">
             <p class="bg-[#FFC107] h-16 aspect-square rounded-full flex justify-center items-center title text-white">1</p>
             <p class="title text-white text-2xl font-semibold">Easy</p>

@@ -115,7 +115,6 @@
             {{-- Slider Lecciones --}}
             <div class="flex justify-center space-x-10 ">
 
-
                 <x-card-challenge
                 title="Routines"
                 image="images\routines.png"
