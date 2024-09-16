@@ -21,7 +21,7 @@
         <nav class="flex items-center justify-between ">
             <div class="">
                 <a href="#">
-                    <img src="{{asset('images\logo1.svg')}}" class="w-40 min-w-40 max-w-40"  alt="logo">
+                    <img src="{{asset('images\logo1.svg')}}" class="w-40 min-w-40 max-w-40 hover:scale-110 transition-all duration-150"  alt="logo">
                 </a>
             </div>
 
@@ -34,7 +34,7 @@
 
             <div>
                 <a href="#">
-                    <img src="{{asset('images\traductor.png')}}" class="w-36 min-w-[60px] max-w-[60px]" alt="Traducir">
+                    <img src="{{asset('images\traductor.png')}}" class="w-36 min-w-[60px] max-w-[60px] hover:scale-110 transition-all duration-150" alt="Traducir">
                 </a>
             </div>
         </nav>

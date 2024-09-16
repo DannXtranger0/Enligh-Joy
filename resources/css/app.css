@@ -9,6 +9,9 @@
     .btn{
         @apply bg-[#FFC107] text-white font-semibold tracking-wider text-center inline-block w-36 py-1.5 rounded-lg hover:bg-[#FFA000]   hover:scale-125 duration-150 transition-all
     }
+    .btn-verify{
+        @apply bg-[#1CED49] text-white text-xl font-semibold tracking-wider text-center inline-block w-44 py-2  rounded-lg hover:bg-[#2df626]   hover:scale-125 duration-150 transition-all
+    }
     .title{
         @apply text-[#2C3E50] text-3xl font-bold tracking-wider
     }

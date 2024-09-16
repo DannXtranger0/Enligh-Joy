@@ -28,15 +28,15 @@
                id="#que-neg"
                text="Questions and Negations"
                />
-
-               <x-index-element 
-               id="#"
-               text="Contraccions"
-               />
                
                <x-index-element 
                id="#example"
                text="Examples"
+               />
+
+               <x-index-element 
+               id="#contracction"
+               text="Contraccions"
                />
             
             </div>
@@ -114,7 +114,7 @@
 
         <x-subtitle id="que-neg">Questions and Negations with To Be</x-subtitle>
  
-        <article class="space-y-48 relative">
+        <article class=" relative">
             <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 right-0 -z-50 h-[80rem] scale-x-[-1]" >
 
             <section class="flex ml-20 -space-x-20 space-y-32">
@@ -131,7 +131,7 @@
             </section>
 
 
-            <section class="flex ml-20 -space-x-20 -space-y-32 ">
+            <section class="flex ml-20 -space-x-20 -space-y-32 mt-48">
                 <div class="bg-[#FEFEFE] shadow-lg h-full px-8 py-10 w-1/2 space-y-5 rounded-lg z-10">
                     <h3 class="title text-xl">Negative Form</h3>
                     <p class="paragraph text-[#333333]"> Just Add "not" after</p>
@@ -150,6 +150,20 @@
         <div class="flex justify-center my-10">
             <img src="{{asset('images\tables\verb-to-be-2.png')}}" alt="" class="  h-screen">
         </div>
+
+
+        {{-- Tercera Tabla --}}
+
+        <x-subtitle id="contracction">Contracctions</x-subtitle>
+
+        <p class="ml-20 paragraph">In English, contractions are shortened forms of words. When speaking or writing informally, we often combine the verb "to be" with the subject pronoun to create contractions. <br><br>
+
+        This makes speech sound more natural and fluid.</p>
+
+        <div class="flex justify-center my-10">
+            <img src="{{asset('images\tables\verb-to-be-3.png')}}" alt="" class="  h-screen">
+        </div>
+        
 
     </section>
     </main>

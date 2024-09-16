@@ -14,7 +14,9 @@ export default {
         "fraunces":["Fraunces"]
       },
       colors:{
+          "orange-smooth": ["#F5A623"],
           "blue-principal": ['#4A90E2'],
+          "purple-principal": ["#5F3A84"],
           "paragraph-color": ['#333333'],
           "soft-red": "hsl(7, 99%, 70%)",
           "yellow-p": "hsl(51, 100%, 49%)",
