@@ -50,7 +50,7 @@
 
     <x-question-challenge 
     number_question="5"
-    start="5. I"
+    start="5."
     finish="you interested in learning Spanish?"
     a="we"
     b="are"

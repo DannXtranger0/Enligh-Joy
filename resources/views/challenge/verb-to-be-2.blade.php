@@ -1,5 +1,5 @@
 <x-verb-to-be-challenge>
-    <x-title>Complete The Dialog</x-title>
+    <x-title>Complete The Dialogue</x-title>
 
     <p class="ml-20 paragraph">Write in the blanks of the dialogues using the verb to be</p>
 
