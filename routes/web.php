@@ -20,12 +20,16 @@ use Illuminate\Support\Facades\Route;
 //      return view('challenge.verb-to-be-2');
 //  });
 
+  Route::get('/', function () {
+      return view('challenge.verb-to-be-3');
+  });
+
 
 
 // Route::get('/', function () {
 //             return view('home');
 //    });
 
-Route::get("/", function () {
-   return view("enviroment");
-});
+// Route::get("/", function () {
+//    return view("enviroment");
+// });
