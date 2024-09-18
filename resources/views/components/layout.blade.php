@@ -26,10 +26,10 @@
             </div>
 
             <ul class="flex space-x-7 mr-8  ">
-                <li><a href="#" class="btn">Home</a></li>
-                <li><a href="#" class="btn">Lessons</a></li>
-                <li><a href="#" class="btn">Challenges</a></li>
-                <li><a href="#" class="btn">Creators</a></li>
+                <li><a href="/" class="btn">Home</a></li>
+                <li><a href="/lessons" class="btn">Lessons</a></li>
+                <li><a href="/challenges" class="btn">Challenges</a></li>
+                <li><a href="/creators" class="btn">Creators</a></li>
             </ul>
 
             <div>

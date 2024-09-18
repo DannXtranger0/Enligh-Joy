@@ -53,7 +53,7 @@
                         title="Verb To Be"
                         image="images/verb-tobe.png"
                         description="I, You, He, She..."
-                        link="#"
+                        link="/verb-to-be-lesson"
                         alt="Imagen del verbo To Be"
                     />
 
