@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
- Route::get('/', function () {
-             return view('home');
-    });
+  Route::get('/', function () {
+              return view('home');
+     });
 
   Route::get('/lessons', function () {
      return view('lessons');
@@ -19,9 +19,18 @@ use Illuminate\Support\Facades\Route;
   });
 
 
+  Route::get('/enviroment', function () {
+   return view('enviroment');
+});
+
+
    
    Route::get('/verb-to-be-lesson', function () {
        return view('verb-to-be');
+   });
+
+    Route::get('/verb-to-be-challenge/1', function () {
+       return view('challenge.verb-to-be-1');
    });
 
    
@@ -29,13 +38,13 @@ use Illuminate\Support\Facades\Route;
 //       return view('challenge.verb-to-be-1');
 //   });
 
-//  Route::get('/', function () {
-//      return view('challenge.verb-to-be-2');
-//  });
+   // Route::get('/', function () {
+   //     return view('challenge.verb-to-be-2');
+   // });
 
-  // Route::get('/', function () {
-  //     return view('challenge.verb-to-be-3');
-  // });
+//   Route::get('/', function () {
+//       return view('challenge.verb-to-be-3');
+//   });
 
 
 

@@ -6,8 +6,8 @@
         <section class="flex justify-between px-28 bg-gradient-to-r from-[#FEFEFE] to-blue-principal-0">
             <div class="mr-28 flex items-center">
                 <div class=" flex flex-col items-center justify-center text-center ">
-                    <h2 class=" text-[#272727] title text-xl px-4  ">Learning english doesn't have to be boring</h2>
-                    <h2 class="title text-xl pt-5 ">¡Lets got for it!</h2>
+                    <h2 class=" text-[#272727] title text-2xl px-4  ">Learning english doesn't have to be boring</h2>
+                    <h2 class="title text-2xl pt-5 ">¡Let's go for it!</h2>
                 </div>
             </div> 
 
@@ -72,6 +72,8 @@
                         link=""
                         alt="Imagen del verbo To Be"
                     />
+
+                    
                     
 
                 </div>
@@ -133,7 +135,7 @@
                 title="Verb To Be"
                 image="images\verb-tobe.png"
                 description=""
-                link="#"
+                link="/verb-to-be-challenge/1"
             />
             
             </div>

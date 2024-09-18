@@ -50,7 +50,6 @@
         />
         </section>
 
-
         <div class="bg-blue-principal-0 w-1/3 h-12 items-center rounded-full flex  ml-10 space-x-8  my-16 ">
             
             <p class="bg-[#FFC107] h-16 aspect-square rounded-full flex justify-center items-center title text-white">2</p>
@@ -60,15 +59,15 @@
         <section class="flex justify-center space-x-10 ">
             
             <x-card-lesson
-            title="Present Simple"
+            title="Routines"
             image="images\present-simple.jpg"
             description="I like music, You love comics..."
             link=""
             alt="Imagen del verbo To Be"
-        />
+            />
 
             <x-card-lesson
-            title="Verb To Be"
+            title="Possessive Adjectives"
             image="images/verb-tobe.png"
             description="I, You, He, She..."
             link="#"
@@ -76,7 +75,7 @@
             />
 
             <x-card-lesson
-            title="Numbers"
+            title="Articles"
             image="images\numbers.png"
             description="One, Two, Three..."
             link="#"
@@ -95,17 +94,17 @@
             <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-56 left-0 -z-50 h-[40rem]" >
 
             <x-card-lesson
-            title="Verb To Be"
-            image="images/verb-tobe.png"
-            description="I, You, He, She..."
+            title="Past Simple"
+            image="images/past.png"
+            description="Talk about what happened before"
             link="#"
             alt="Imagen del verbo To Be"
             />
 
             <x-card-lesson
-            title="Present Simple"
-            image="images\present-simple.jpg"
-            description="I like music, You love comics..."
+            title="Future Simple"
+            image="images\future.png"
+            description="Describe your plans and predictions"
             link=""
             alt="Imagen del verbo To Be"
         />
