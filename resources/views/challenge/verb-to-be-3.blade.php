@@ -1,5 +1,5 @@
 <x-verb-to-be-challenge>
-    <x-title>Complete The Dialogue</x-title>
+    <x-title>Jumbled Sentence</x-title>
 
     <p class="ml-20 paragraph">Click on the words below to create a correct sentence in the input box above. If you need to remove a word, just click on it again.    </p>
 

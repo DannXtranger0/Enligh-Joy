@@ -32,18 +32,13 @@ Route::get('/verb-to-be-lesson', function () {
        return view('challenge.verb-to-be-1');
    });
 
-   
-//      Route::get('/', function () {
-//       return view('challenge.verb-to-be-1');
-//   });
+    Route::get('/verb-to-be-challenge/2', function () {
+        return view('challenge.verb-to-be-2');
+    });
 
-   // Route::get('/', function () {
-   //     return view('challenge.verb-to-be-2');
-   // });
-
-//   Route::get('/', function () {
-//       return view('challenge.verb-to-be-3');
-//   });
+   Route::get('/verb-to-be-challenge/3', function () {
+       return view('challenge.verb-to-be-3');
+  });
 
 
 

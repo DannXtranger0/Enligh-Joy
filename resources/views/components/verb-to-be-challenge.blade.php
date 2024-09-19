@@ -10,19 +10,19 @@
 
             <img src="{{asset('images\leafs\leaf-index.png')}}" alt="" class="absolute opacity-25 top-16 -z-20">
                <x-index-element-challenge 
-               route="#"
+               route="/verb-to-be-challenge/1"
                number="1"
                text="Choose the correct answer"
                />
 
                <x-index-element-challenge 
-               route="#"
+               route="/verb-to-be-challenge/2"
                number="2"
                text="Complete the dialog"
                />
 
                <x-index-element-challenge 
-               route="#"
+               route="/verb-to-be-challenge/3"
                number="3"
                text="jumbled sentence"
                />
