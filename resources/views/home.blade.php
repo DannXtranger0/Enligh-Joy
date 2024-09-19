@@ -69,7 +69,7 @@
                         title="Present Simple"
                         image="images\present-simple.jpg"
                         description="I like music, You love comics..."
-                        link=""
+                        link="/present-simple-lesson"
                         alt="Imagen del verbo To Be"
                     />
 

@@ -13,7 +13,9 @@
             <img src="{{asset("images/icons/estrella.svg")}}" alt="" class="h-9">
         </div>
 
-        <p class="paragraph text-center px-32">Improve your English while having fun with our interactive challenges. Designed for A1-A2 levels, these challenges help you practice and reinforce what you've learned. Complete the challenges, push your limits, and watch your English improve day by day!.
+        <p class="paragraph text-center px-32">Improve your English while having fun with our interactive challenges.
+            
+        Designed for A1-A2 levels, these challenges help you practice and reinforce what you've learned. Complete the challenges, push your limits, and watch your English improve day by day!.
 
         </p>
         {{-- Nivel --}}

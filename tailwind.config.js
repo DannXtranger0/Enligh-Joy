@@ -9,6 +9,18 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        'always': '-4px -4px 10px #00FF0050',
+        'every-day': '4px -4px 10px #00FF0050',
+        'usually': '-8px 0 10px #66FF6650',
+        'often': '8px 0 10px #66FF6650',
+        'sometimes': '-8px 0 10px #FFFF6650',
+        'rarely': '8px 0 10px #FFFF6650',
+        'hardly': '-4px 4px 10px #FF000050',
+        'never': '4px 4px 10px #FF000050'
+
+   
+      },
       fontFamily:{
         "fredoka":["Fredoka"],
         "barlow":["Barlow"],

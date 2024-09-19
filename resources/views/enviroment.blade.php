@@ -140,7 +140,7 @@
                 <article class="grid  grid-cols-3 gap-14 ">
                     <x-enviroment-2
                     title="Reduce, Reuse, Recycle"
-                    text="TFollow the three R’s to minimize waste. Reduce what you buy, reuse items, and recycle materials like paper, glass, and plastic."
+                    text="TFollow the three R's to minimize waste. Reduce what you buy, reuse items, and recycle materials like paper, glass, and plastic."
 
                     img="images\enviroment\recycle-symbol.png"
                     />
@@ -261,20 +261,19 @@
                     />
 
                     <div class="col-span-3 flex justify-center space-x-14">
+                        <x-enviroment-1
+                        title="Water Scarcity"
+                        text="Freshwater resources are being depleted due to overuse, pollution, and climate change, causing water shortages in many regions"
 
-                    <x-enviroment-1
-                    title="Water Scarcity"
-                    text="Freshwater resources are being depleted due to overuse, pollution, and climate change, causing water shortages in many regions"
+                        img="images\enviroment\water-scarcity.png"
+                        />
 
-                    img="images\enviroment\water-scarcity.png"
-                    />
+                        <x-enviroment-1
+                        title="Overfishing"
+                        text="Excessive fishing is depleting marine populations and disrupting aquatic ecosystems."
 
-                    <x-enviroment-1
-                    title="Overfishing"
-                    text="Excessive fishing is depleting marine populations and disrupting aquatic ecosystems."
-
-                    img="images\enviroment\industrial.png"
-                    />
+                        img="images\enviroment\industrial.png"
+                        />
                 </div>
 
 
