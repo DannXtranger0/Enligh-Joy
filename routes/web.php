@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-  Route::get('/', function () {
-              return view('home');
-     });
+   Route::get('/', function () {
+               return view('home');
+      });
 
   Route::get('/lessons', function () {
      return view('lessons');
@@ -52,6 +52,6 @@ Route::get('/present-simple-lesson', function () {
 });
 
 
-// Route::get("/", function () {
-//    return view("enviroment");
-// });
+//  Route::get("/", function () {
+//     return view("enviroment");
+//  });

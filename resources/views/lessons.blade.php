@@ -23,7 +23,8 @@
 
         {{-- Lecciones --}}
 
-        <section class="flex justify-center space-x-10 ">
+
+        <section class="grid grid-cols-3 px-20 gap-10 ">
        
             <x-card-lesson
             title="Verb To Be"
@@ -48,6 +49,21 @@
             link=""
             alt="Imagen del verbo To Be"
         />
+        
+            <div class="flex col-span-3 justify-center ">
+
+                    <x-card-lesson
+                    title="Enviroment"
+                    image="images/enviroment-img.png"
+                    description="Caring for our planet"
+                    link="/verb-to-be-lesson"
+                    alt="Imagen del verbo To Be"
+                />
+
+                
+            </div>
+
+        </div>
         </section>
 
         <div class="bg-blue-principal-0 w-1/3 h-12 items-center rounded-full flex  ml-10 space-x-8  my-16 ">
@@ -56,7 +72,7 @@
             <p class="title text-white text-2xl font-semibold">Intermediate</p>
         </div>
 
-        <section class="flex justify-center space-x-10 ">
+        <section class="grid grid-cols-3 px-20 gap-10 ">
             
             <x-card-lesson
             title="Routines"
@@ -90,7 +106,7 @@
             <p class="title text-white text-2xl font-semibold">Advanced</p>
         </div>
 
-        <section class="flex justify-center space-x-10 relative">
+        <section class="grid grid-cols-3 justify-center px-20 gap-10  relative">
             <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-56 left-0 -z-50 h-[40rem]" >
 
             <x-card-lesson

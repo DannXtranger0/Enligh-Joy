@@ -47,21 +47,19 @@
                 {{-- Slider Lecciones --}}
                 <div class="flex justify-center space-x-10 ">
 
-             
+                    <x-card-lesson
+                    title="Enviroment"
+                    image="images/enviroment-img.png"
+                    description="caring for our planet"
+                    link="/verb-to-be-lesson"
+                    alt="Imagen del verbo To Be"
+                />
 
                     <x-card-lesson
                         title="Verb To Be"
                         image="images/verb-tobe.png"
                         description="I, You, He, She..."
                         link="/verb-to-be-lesson"
-                        alt="Imagen del verbo To Be"
-                    />
-
-                    <x-card-lesson
-                        title="Numbers"
-                        image="images\numbers.png"
-                        description="One, Two, Three..."
-                        link="#"
                         alt="Imagen del verbo To Be"
                     />
 

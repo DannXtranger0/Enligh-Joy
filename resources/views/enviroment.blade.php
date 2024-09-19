@@ -273,9 +273,21 @@
                         text="Excessive fishing is depleting marine populations and disrupting aquatic ecosystems."
 
                         img="images\enviroment\industrial.png"
-                        />
-                </div>
+                        />   
+                
+                    </div>
 
+                    <div class="bg-blue-principal-0 px-5 my-10 space-x-5 w-[50rem] h-12 flex items-center rounded-lg scroll-mt-28 relative" id="how-to" >
+                        <img src="{{asset('images\icons\estrella.svg')}}" alt="" class="w-8">
+                            <h3 class="title text-2xl  text-white">Caring for our planet</h3>
+                    </div>
+
+                    <div class="col-span-3 flex flex-col items-center justify-center ">
+                    <iframe class=""  width="560" height="315" src="https://www.youtube.com/embed/PZ6SgdHQw_g?si=2eIFBzCYGtQ6k55h" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-w hen-cross-origin" allowfullscreen></iframe>
+                    </div>
+
+
+        
 
             </section>
     </main>

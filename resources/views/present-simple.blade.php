@@ -174,15 +174,15 @@
                     </h2>
 
                     <p class="paragraph text-white font-light">He <span class="text-[#FFC107] font-medium">spies</span> on his neighbors</p>
-                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">tries</span>her best.</p>    
+                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">tries</span> her best.</p>    
                 </article>
 
 
                 <article class="  bg-gradient-to-r from-[#3197c6] to-[#3bbbd8] w-96 h-72 aspect-square text-center py-10 space-y-5 rounded-lg px-5 ">
                     <h2 class="title text-lg"> Verbs Ending in -y <br>(Vowel Before -y)<br>Keep the "y" and add "s"</h2>
 
-                    <p class="paragraph text-white font-light">It <span class="text-[#FFC107] font-medium">enjoys</span>playing in the park</p>
-                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">buys</span>a new dress</p>    
+                    <p class="paragraph text-white font-light">It <span class="text-[#FFC107] font-medium">enjoys</span> playing in the park</p>
+                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">buys</span> a new dress</p>    
                 </article>
 
 
@@ -196,7 +196,7 @@
 
                                 <div class="order-1 w-96">
                                     <p class="paragraph text-white font-light">He <span class="text-[#FFC107] font-medium">is</span> a doctor.</p><br>
-                                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">is</span>happy.</p>
+                                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">is</span> happy.</p>
                                 </div>
                                     <h2 class="title text-lg"><span class="text-white font-medium">To be:</span> Has its own forms in the simple present: am, is, are.</h2>
                             </div>
@@ -204,7 +204,7 @@
                             <div class="flex justify-between items-center px-10">
                                 <div class="order-1  w-96">
                                     <p class="paragraph text-white font-light">He <span class="text-[#FFC107] font-medium">has</span> a car.</p><br>
-                                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">has</span>a new phone.</p>
+                                    <p class="paragraph text-white font-light">She <span class="text-[#FFC107] font-medium">has</span> a new phone.</p>
                                 </div>
                                     <h2 class="title text-lg"><span class="text-white font-medium">To have:</span> Has its own form for the third person singular: has.</h2>
                             </div>
@@ -215,10 +215,10 @@
         </div>
 
         
-        {{-- SEcon table --}}
+        {{-- Second table --}}
 
-        <p class="ml-20 paragraph">For this group, we use: Subject + Verb in normal form + Complement</p>
-
+        <p class="ml-20 paragraph"><span class="title text-lg">The structure is</span> <br>
+            Subject + Verb in normal form + Complement</p>
 
         <div class="flex justify-center mt-20 mb-10">
             <img src="{{asset('images\tables\present-simple-2.png')}}" alt="" class="  w-3/4">
