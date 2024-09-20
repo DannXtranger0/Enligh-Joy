@@ -46,6 +46,10 @@ Route::get('/present-simple-lesson', function () {
    return view('present-simple');
 });
 
+Route::get('/present-simple-challenge/1', function () {
+   return view('challenge.present-simple-1');
+});
+
 
 //  Route::get("/", function () {
 //     return view("enviroment");
