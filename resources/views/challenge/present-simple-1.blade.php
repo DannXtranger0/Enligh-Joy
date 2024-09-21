@@ -19,89 +19,87 @@
     color="#5F3A84"
     />
 
-    <x-question-challenge 
+
+    <x-question-challenge-image 
     number_question="2"
-    start="2. We"
-    finish="ready for the trip"
-    a="am"
-    b="is"
-    c="are"
+    start="2.She"
+    finish="every morning"
+    a="runs"
+    b="running"
+    c="run"
+    img="images\challenges\present-simple\2.png"
     color="#5F3A84"
     />
 
-    <x-question-challenge 
+
+    <x-question-challenge-image 
     number_question="3"
-    start="3. I"
-    finish="ready for the trip"
-    a="am"
-    b="is"
-    c="are"
+    start="3.Do they"
+    finish="?"
+    a="dances"
+    b="dancing"
+    c="dance"
+    img="images\challenges\present-simple\3.png"
     color="#5F3A84"
     />
 
-    <x-question-challenge 
+
+    <x-question-challenge-image 
     number_question="4"
-    start="4."
-    finish="they at the library today?"
-    a="we"
-    b="are"
-    c="is"
-    color="#a18f2d"
+    start="4.He"
+    finish="look at his cellphone"
+    a="doensn't"
+    b="do not"
+    c="does"
+    img="images\challenges\present-simple\4.png"
+    color="#5F3A84"
     />
 
-    <x-question-challenge 
+    <x-question-challenge-image 
     number_question="5"
     start="5."
-    finish="you interested in learning Spanish?"
-    a="we"
-    b="are"
-    c="is"
-    color="#a18f2d"
+    finish="they watch television?"
+    a="doensn't"
+    b="do not"
+    c="does"
+    img="images\challenges\present-simple\5.png"
+    color="#5F3A84"
     />
 
-    <x-question-challenge 
+
+    <x-question-challenge-image 
     number_question="6"
-    start="6. Where"
-    finish="he going after school?"
-    a="we"
-    b="are"
-    c="is"
-    color="#a18f2d"
+    start="6.The dog"
+    finish="five bones?"
+    a="doesn't has"
+    b="does have"
+    c="doesn't have"
+    img="images\challenges\present-simple\6.png"
+    color="#5F3A84"
     />
 
-    
-    <x-question-challenge 
+    <x-question-challenge-image 
     number_question="7"
-    start="7. She"
-    finish="happy about the results."
-    a="isn't"
-    b="aren't"
-    c="am not"
-    color="#4A90E2"
+    start="7.She doesn't"
+    finish="a car"
+    a="haves"
+    b="has"
+    c="have"
+    img="images\challenges\present-simple\7.png"
+    color="#5F3A84"
     />
-
-    <x-question-challenge 
-    number_question="8"
-    start="8. We"
-    finish="going to the party tonight."
-    a="isn't"
-    b="aren't"
-    c="am not"
-    color="#4A90E2"
-    />
-
-
-    <x-question-challenge 
-    number_question="9"
-    start="9. I"
-    finish="sure about this decision."
-    a="isn't"
-    b="aren't"
-    c="am not"
-    color="#4A90E2"
-    />
-
     
+    <x-question-challenge-image 
+    number_question="8"
+    start="8.Does he"
+    finish="a photo with his dog?"
+    a="takes"
+    b="take"
+    c="make"
+    img="images\challenges\present-simple\8.png"
+    color="#5F3A84"
+    />
+
     <button type="submit" class="btn-verify">Verify</button>
 
 </form>

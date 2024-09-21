@@ -51,7 +51,7 @@
                     title="Enviroment"
                     image="images/enviroment-img.png"
                     description="caring for our planet"
-                    link="/verb-to-be-lesson"
+                    link="/enviroment"
                     alt="Imagen del verbo To Be"
                 />
 

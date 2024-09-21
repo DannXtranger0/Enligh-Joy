@@ -303,7 +303,7 @@
 
             <section class="flex ml-20 -space-x-20 space-y-32">
                 <div class="bg-[#394AB5] w-2/5 rounded-lg h-fit p-10">
-                    <img src="{{asset('images\men-chatting.png')}}" alt="">
+                    <img src="{{asset('images\drinks-water.png')}}" alt="">
                 </div>
 
                 <div class="bg-[#FEFEFE] shadow-lg h-full px-8 py-14 w-1/2 space-y-5 rounded-lg">
@@ -345,8 +345,8 @@
 
                 </div>
 
-                <div class="bg-[#efb9b9] w-2/5 rounded-lg h-fit p-10 -z-10">
-                    <img src="{{asset('images\men-chatting.png')}}" alt="">
+                <div class="bg-[#1CEDB1] w-2/5 rounded-lg h-fit p-10 -z-10">
+                    <img src="{{asset('images\drinks-water-2.png')}}" alt="">
                 </div>
             </section>
         </article>
