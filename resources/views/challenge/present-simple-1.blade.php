@@ -48,7 +48,7 @@
     number_question="4"
     start="4.He"
     finish="look at his cellphone"
-    a="doensn't"
+    a="doesn't"
     b="do not"
     c="does"
     img="images\challenges\present-simple\4.png"
@@ -59,9 +59,9 @@
     number_question="5"
     start="5."
     finish="they watch television?"
-    a="doensn't"
-    b="do not"
-    c="does"
+    a="Doesn't"
+    b="Do"
+    c="Does"
     img="images\challenges\present-simple\5.png"
     color="#5F3A84"
     />
@@ -97,6 +97,28 @@
     b="take"
     c="make"
     img="images\challenges\present-simple\8.png"
+    color="#5F3A84"
+    />
+
+    <x-question-challenge-image 
+    number_question="9"
+    start="9.She"
+    finish="as a chef"
+    a="work"
+    b="works"
+    c="working"
+    img="images\challenges\present-simple\9.png"
+    color="#5F3A84"
+    />
+
+    <x-question-challenge-image 
+    number_question="10"
+    start="10.What"
+    finish="she do?"
+    a="does"
+    b="watching"
+    c="don't"
+    img="images\challenges\present-simple\10.png"
     color="#5F3A84"
     />
 

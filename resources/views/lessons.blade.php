@@ -30,7 +30,7 @@
             title="Verb To Be"
             image="images/verb-tobe.png"
             description="I, You, He, She..."
-            link="#"
+            link="/verb-to-be-lesson"
             alt="Imagen del verbo To Be"
             />
 
@@ -38,7 +38,7 @@
             title="Numbers"
             image="images\numbers.png"
             description="One, Two, Three..."
-            link="#"
+            link="numbers-lesson"
             alt="Imagen del verbo To Be"
             />
 
@@ -46,7 +46,7 @@
             title="Present Simple"
             image="images\present-simple.jpg"
             description="I like music, You love comics..."
-            link=""
+            link="/present-simple-lesson"
             alt="Imagen del verbo To Be"
         />
         
@@ -56,7 +56,7 @@
                     title="Enviroment"
                     image="images/enviroment-img.png"
                     description="Caring for our planet"
-                    link="/verb-to-be-lesson"
+                    link="/enviroment"
                     alt="Imagen del verbo To Be"
                 />
 
