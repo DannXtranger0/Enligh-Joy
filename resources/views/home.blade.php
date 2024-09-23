@@ -290,7 +290,6 @@
                 document.querySelector('.slider').style.transform = `translateX(-${offset}%)`; 
             }
         
-            
             updateSlider();
         
             // Botón anterior
@@ -311,6 +310,5 @@
         });
         </script>
     
-
 </x-layout>
    
