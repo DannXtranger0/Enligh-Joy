@@ -1,6 +1,35 @@
 <x-layout title="EnglishJoy">
 
+
+    <style>
+        .slider-container {
+              width: calc(100% - 4rem); 
+              overflow: hidden; /* Oculta  */
+          }
+  
+          .slider {
+              display: flex; 
+          }
+  
+          .card {
+              min-width: calc(100% / 3); 
+              
+              padding: 10px;
+              margin: 0;
+          }
+          
+
+          .card {
+              margin: 0; /* Sin margen entre tarjetas */
+          }
+  
+       
+          .card:last-child {
+              margin-right: 0;
+          }
+      </style>    
     {{-- Siempre empieza con pt-24 --}}
+ 
     
     <main class="pt-24">
         <section class="flex justify-between px-28 bg-gradient-to-r from-[#FEFEFE] to-blue-principal-0">
@@ -27,43 +56,38 @@
             <h2 class="title text-4xl mb-8 inline-block">Lessons</h2>
             <p class="paragraph mb-8">Start learning English from the basics with our lessons!</p>
 
-            <section class="relative ">
-            
-                {{-- slider Botones--}}
-                {{-- <div class="absolute flex justify-between w-full top-1/2 transform -translate-y-1/2 px-5 -z-10 ">
-                   
-                  
-                </div> --}}
-        
-                <button class="cursor-pointer absolute left-5 top-1/2 transform -translate-y-1/2">
-                    <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
-                </button>
+            <section class="relative  ">
 
-                <button class="cursor-pointer absolute right-5 top-1/2 transform -translate-y-1/2">
-                    <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
-                </button>
+                <div class="slider-container pt-8   ml-8 justify-center  relative overflow-hidden ">
+                    <div class="slider pb-4 ml-24 flex transition-transform duration-300">
 
+                        {{-- primer slider --}}
+                
 
-                {{-- Slider Lecciones --}}
-                <div class="flex justify-center space-x-10 ">
-
-                    <x-card-lesson
-                    title="Enviroment"
-                    image="images/enviroment-img.png"
-                    description="caring for our planet"
-                    link="/enviroment"
-                    alt="Imagen del verbo To Be"
-                />
-
-                    <x-card-lesson
+                    <div class="card  ">
+                        <x-card-lesson
                         title="Verb To Be"
                         image="images/verb-tobe.png"
                         description="I, You, He, She..."
                         link="/verb-to-be-lesson"
                         alt="Imagen del verbo To Be"
                     />
+                    </div>
 
-                    <x-card-lesson
+                    <div class="card">
+                        <x-card-lesson
+                        title="Numbers"
+                        image="images\numbers.png"
+                        description="One, Two, Three..."
+                        link="#"
+                        alt="Imagen del verbo To Be"
+                    />
+
+                    </div>
+
+                    <div class="card">
+
+                        <x-card-lesson
                         title="Present Simple"
                         image="images\present-simple.jpg"
                         description="I like music, You love comics..."
@@ -71,11 +95,61 @@
                         alt="Imagen del verbo To Be"
                     />
 
-                    
+                    </div>
+
+                    <div class="card">
+                        <x-card-lesson
+                        title="Present Simple"
+                        image="images\present-simple.jpg"
+                        description="I like music, You love comics..."
+                        link="/present-simple-lesson"
+                        alt="Imagen del verbo To Be"
+                    />
+
+                    </div>
+
+                    <div class="card">
+                        <x-card-lesson
+                        title="Present Simple"
+                        image="images\present-simple.jpg"
+                        description="I like music, You love comics..."
+                        link="/present-simple-lesson"
+                        alt="Imagen del verbo To Be"
+                    />
+
+                    </div>
+
+                    <div class="card">
+                        <x-card-lesson
+                        title="Present Simple"
+                        image="images\present-simple.jpg"
+                        description="I like music, You love comics..."
+                        link="/present-simple-lesson"
+                        alt="Imagen del verbo To Be"
+                    />
+
+                    </div>
                     
 
+                   </div>
+
+                 </div>
+
+                 <button class="cursor-pointer absolute left-5 top-1/2 transform -translate-y-1/2" id="prevBtn">
+                    <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
+                </button>
+
+                <button class="cursor-pointer absolute right-5 top-1/2 transform -translate-y-1/2" id="nextBtn">
+                    <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
+                </button>
+
+
                 </div>
+            
+
             </section>
+
+
         </section>
     
         {{-- mini banner --}}
@@ -100,20 +174,13 @@
 
             <h2 class="title text-4xl mb-8 inline-block">Challenges</h2>
             <p class="paragraph mb-8">Test your knowledge of English with our challenges!</p>
+        </section>
 
-            {{-- slider Botones--}}
-            <button class="cursor-pointer absolute left-5 top-1/2 transform -translate-y-1/2">
-                <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
-            </button>
+        <section class="relative">
 
-            <button class="cursor-pointer absolute right-5 top-1/2 transform -translate-y-1/2">
-                <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
-            </button>
-
-    
-
-            {{-- Slider Lecciones --}}
-            <div class="flex justify-center space-x-10 ">
+            
+            {{-- segundo slider --}}
+            <div class="flex justify-center space-x-10  ">
 
                 <x-card-challenge
                 title="Routines"
@@ -137,7 +204,20 @@
             />
             
             </div>
+            
+            {{-- slider Botones--}}
+            <button class="cursor-pointer absolute left-5 top-1/2 transform -translate-y-1/2">
+                <img src="{{asset('images\botonSlider.svg')}}" alt="" class="h-16">
+            </button>
+
+            <button class="cursor-pointer absolute right-5 top-1/2 transform -translate-y-1/2">
+                <img src="{{asset('images\botonSlider.svg')}}" class="rotate-180 h-16" alt="">
+            </button>
+
         </section>
+
+    
+
     </section>
 
     {{-- segundo mini-banner --}}
@@ -198,6 +278,38 @@
         />
 
     </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const cards = document.querySelectorAll('.slider .card');
+            let currentIndex = 0; // Índice de la tarjeta actual
+        
+            function updateSlider() {
+             
+                const offset = currentIndex * (100 / 3); 
+                document.querySelector('.slider').style.transform = `translateX(-${offset}%)`; 
+            }
+        
+            
+            updateSlider();
+        
+            // Botón anterior
+            document.getElementById('prevBtn').addEventListener('click', function () {
+                if (currentIndex > 0) {
+                    currentIndex--; 
+                }
+                updateSlider();
+            });
+           
+            // Botón siguiente
+            document.getElementById('nextBtn').addEventListener('click', function () {
+                if (currentIndex < cards.length - 3) { 
+                    currentIndex++; 
+                }
+                updateSlider();
+            });
+        });
+        </script>
     
 
 </x-layout>
