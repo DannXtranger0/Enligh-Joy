@@ -76,7 +76,8 @@
             color="#4A90E2"
         />
 
-        <x-question-challenge 
+        <x-question-challenge
+              
             number_question="8"
             start="8. We"
             finish="going to the party tonight."
@@ -98,7 +99,7 @@
         
         <div class="flex items-center space-x-4 mt-4">
             <button class="btn-verify" >Verify</button>
-            <div class="results border-2 border-red-600 ml-10 p-4 rounded hidden">
+            <div class="results border-2 border-red-600 px-6 left-64 w-1/4 relative p-4 rounded hidden">
                 <p id="result-text" class="paragraph"></p>
             </div>
         </div>
@@ -118,6 +119,8 @@
                 9: "am not",
             };
 
+            const totalQuestions = Object.keys(correctAnswers).length;
+
             document.querySelector('.btn-verify').addEventListener('click', function (event) {
                 event.preventDefault(); // Evita que el formulario se envíe
 
@@ -134,27 +137,33 @@
                         const answerValue = selectedAnswer.value;
 
                         if (answerValue === correctAnswers[questionNumber]) {
-                            questionDiv.style.border = '3px solid green'; // Respuesta correcta
+                            questionDiv.style.border = '3px solid #1CED49'; // Respuesta correcta
                             correctCount++;
                         } else {
-                            questionDiv.style.border = '3px solid darkred'; // Respuesta incorrecta
+                            questionDiv.style.border = '3px solid #FE0000'; // Respuesta incorrecta
                             incorrectCount++;
                         }
+
                     } else {
                         incorrectCount++; // Contar como incorrecta si no se selecciona respuesta
                     }
                 }
-
+                
                 // Mostrar resultados
                 const resultText = document.getElementById('result-text');
                 resultText.innerHTML = `
                     <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
-                    <span class="text-green-600">Corrects: ${correctCount}</span>
-                `;
+                    <span class="text-green-600">¡Corrects!: ${correctCount}</span>`;
                 
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');
+
+                // Redirigir si todas las respuestas son correctas
+                if (correctCount === totalQuestions) {
+                    window.location.href = '/verb-to-be-challenge/2'; 
+                }
             });
         });
     </script>
+
 </x-verb-to-be-challenge>
