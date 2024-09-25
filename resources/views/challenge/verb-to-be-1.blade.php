@@ -1,4 +1,4 @@
-<x-verb-to-be-challenge>
+ <x-verb-to-be-challenge>
     <x-title>Choose The Correct Option</x-title>
     
     <p class="ml-20 paragraph">Fill in the blank by selecting the correct answer</p>
@@ -43,7 +43,7 @@
             a="we"
             b="are"
             c="is"
-            color="#a18f2d"
+            color="#5F3A84"
         />
 
         <x-question-challenge 
@@ -53,7 +53,7 @@
             a="we"
             b="are"
             c="is"
-            color="#a18f2d"
+            color="#5F3A84"
         />
 
         <x-question-challenge 
@@ -63,7 +63,7 @@
             a="we"
             b="are"
             c="is"
-            color="#a18f2d"
+            color="#5F3A84"
         />
 
         <x-question-challenge 
@@ -73,18 +73,17 @@
             a="isn't"
             b="aren't"
             c="am not"
-            color="#4A90E2"
+            color="#5F3A84"
         />
 
         <x-question-challenge
-              
             number_question="8"
             start="8. We"
             finish="going to the party tonight."
             a="isn't"
             b="aren't"
             c="am not"
-            color="#4A90E2"
+            color="#5F3A84"
         />
 
         <x-question-challenge 
@@ -94,11 +93,11 @@
             a="isn't"
             b="aren't"
             c="am not"
-            color="#4A90E2"
+            color="#5F3A84"
         />
         
         <div class="flex items-center space-x-4 mt-4">
-            <button class="btn-verify" >Verify</button>
+            <button class="btn-verify">Verify</button>
             <div class="results border-2 border-red-600 px-6 left-64 w-1/4 relative p-4 rounded hidden">
                 <p id="result-text" class="paragraph"></p>
             </div>
@@ -132,18 +131,30 @@
                 for (let questionNumber in correctAnswers) {
                     const selectedAnswer = document.querySelector(`input[name='question-${questionNumber}']:checked`);
                     const questionDiv = document.getElementById(`question-${questionNumber}`);
+                    let icon = questionDiv.querySelector('img'); // Selecciona la imagen existente
+
+                    // Si no existe la imagen, la creamos
+                    if (!icon) {
+                        icon = document.createElement('img');
+                        icon.style.width = '20px'; 
+                        icon.style.position = 'relative'; 
+                        icon.style.right = '-70vw'; 
+                        icon.style.top = '-11vw'; // Espa
+                        questionDiv.appendChild(icon); // Agregar la imagen al div
+                    }
 
                     if (selectedAnswer) {
                         const answerValue = selectedAnswer.value;
 
                         if (answerValue === correctAnswers[questionNumber]) {
                             questionDiv.style.border = '3px solid #1CED49'; // Respuesta correcta
+                            icon.src = '{{asset('images/correct.png')}}'; // Ruta a la imagen de check
                             correctCount++;
                         } else {
-                            questionDiv.style.border = '3px solid #FE0000'; // Respuesta incorrecta
+                            questionDiv.style.border = '3px solid #912F2F'; // Respuesta incorrecta
+                            icon.src = '{{asset('images/incorrect.png')}}'; // Ruta a la imagen de X
                             incorrectCount++;
                         }
-
                     } else {
                         incorrectCount++; // Contar como incorrecta si no se selecciona respuesta
                     }
@@ -165,5 +176,6 @@
             });
         });
     </script>
+</x-verb-to-be-challenge> 
 
-</x-verb-to-be-challenge>
+

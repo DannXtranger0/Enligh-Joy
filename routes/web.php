@@ -41,7 +41,6 @@ Route::get('/verb-to-be-lesson', function () {
   });
 
 
-
 Route::get('/present-simple-lesson', function () {
    return view('present-simple');
 });
@@ -52,9 +51,9 @@ Route::get('/present-simple-challenge/1', function () {
 
 
 
-Route::get('/numbers-lesson', function () {
-   return view('numbers');
-});
+// Route::get('/numbers-lesson', function () {
+//    return view('numbers');
+// });
 
 
 //  Route::get("/", function () {
