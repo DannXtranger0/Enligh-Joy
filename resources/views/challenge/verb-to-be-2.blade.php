@@ -6,7 +6,7 @@
     <form action="#" class="my-10 space-y-16">
         @csrf
 
-        <article class="border-[3px] border-orange-smooth-0 rounded-md space-y-7 px-5 py-2 relative ">
+        <article class="border-[3px] border-orange-smooth-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-orange-smooth-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">1</p>
             
             <p class="paragraph"><span class="title text-xl font-medium">A: </span>Hi, Emma. <input class="border-b-2 border-black w-10 outline-none text-center" type="text" name="dialogue1_1" id=""> you okay? You look tired.</p>
@@ -34,7 +34,7 @@
             <p class="paragraph"><span class="title text-xl font-medium">A: </span>That's true. Mornings <input class="border-b-2 border-black w-10 outline-none text-center" type="text" name="dialogue2_6" id=""> not easy for them. Maybe they <input class="border-b-2 border-black w-10 outline-none text-center" type="text" name="dialogue2_7" id=""> just sleepy.</p>
         </article>
 
-        <article class="border-[3px] border-[#C55E7A] rounded-md space-y-7 px-5 py-2 relative ">
+        <article class="border-[3px] border-[#C55E7A] rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-[#C55E7A] h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">3</p>
             
             <p class="paragraph"><span class="title text-xl font-medium">A: </span>How <input class="border-b-2 border-black w-10 outline-none text-center" type="text" name="dialogue3_1" id=""> your weekend, Jake?</p>
@@ -50,18 +50,18 @@
 
         <button type="submit" class="btn-verify">Verify</button>
     </form>
+    
     <script>
         document.querySelector('.btn-verify').addEventListener('click', function(event) {
             event.preventDefault(); // Prevent form submission
     
             // Correct answers for each blank
             const correctAnswers = [
-                ["are", "am", "am", "is", "is", "are"], // Dialogue 1
-                
-                ["are", "are", "is", "are", "are"], // Dialogue 2
-                ["was", "was", "are", "was", "was", "is"] // Dialogue 3
+                ["are", "am", "am", "is", "is", "is", "am", "are"], // Dialogue 1
+                ["are", "are", "are","is", "are", "are", "are","are"], // Dialogue 2
+                ["was", "was", "was", "were", "are", "did", "was", "am", "is"] // Dialogue 3
             ];
-    
+
             let score = 0;
     
             // Check answers for each dialogue
@@ -81,8 +81,8 @@
                 });
             });
     
-            // Display result
-            alert(`You got ${score} out of ${correctAnswers.flat().length} correct!`);
+            // // Display result
+            // alert(`You got ${score} out of ${correctAnswers.flat().length} correct!`);
         });
     </script>
 </x-verb-to-be-challenge>
