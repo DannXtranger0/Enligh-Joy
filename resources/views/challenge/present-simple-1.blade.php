@@ -157,7 +157,7 @@
                 for (let questionNumber in correctAnswers) {
                     const selectedAnswer = document.querySelector(`input[name='question-${questionNumber}']:checked`);
                     const questionDiv = document.getElementById(`question-${questionNumber}`);
-                    const icon = document.getElementById(`icon-${questionNumber}`);
+                    const icon = document.getElementById(`icon-${questionNumber}`); // Selecciona la imagen correspondiente
 
                     // // Si no existe la imagen, la creamos
                     // if (!icon) {
@@ -174,11 +174,13 @@
 
                         if (answerValue === correctAnswers[questionNumber]) {
                             questionDiv.style.border = '3px solid #1CED49'; // Respuesta correcta
-                            // icon.src = '{{ asset('images/correct.png') }}'; // Ruta a la imagen de check
+                            icon.src = '{{ asset('images/correct.png') }}'; // Ruta a la imagen de check
+                            icon.style.display = 'inline'; // Mostrar la imagen
                             correctCount++;
                         } else {
                             questionDiv.style.border = '3px solid #912F2F'; // Respuesta incorrecta
-                            // icon.src = '{{ asset('images/incorrect.png') }}'; // Ruta a la imagen de X
+                            icon.src = '{{ asset('images/incorrect.png') }}'; // Ruta a la imagen de X
+                            icon.style.display = 'inline'; // Mostrar la imagen
                             incorrectCount++;
                         }
                     } else {
