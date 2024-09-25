@@ -74,29 +74,26 @@
 
         <section class="grid grid-cols-3 px-20 gap-10 ">
             
-            <x-card-lesson
-            title="Routines"
-            image="images\present-simple.jpg"
-            description="I like music, You love comics..."
-            link=""
-            alt="Imagen del verbo To Be"
-            />
+            <div class="flex col-span-3 justify-center gap-10 ">
 
-            <x-card-lesson
-            title="Possessive Adjectives"
-            image="images/verb-tobe.png"
-            description="I, You, He, She..."
-            link="#"
-            alt="Imagen del verbo To Be"
-            />
+                <x-card-lesson
+                title="Routines"
+                image="images\routines.png"
+                description="I always wake up at 7AM"
+                link=""
+                alt="Imagen del verbo To Be"
+                />
 
-            <x-card-lesson
-            title="Articles"
-            image="images\numbers.png"
-            description="One, Two, Three..."
-            link="#"
-            alt="Imagen del verbo To Be"
-            />
+                <x-card-lesson
+                title="Articles"
+                image="images\articles.png"
+                description="A, An and The"
+                link="#"
+                alt="Imagen del verbo To Be"
+                />
+
+            <div class="flex col-span-3 justify-center ">
+
         </section>
 
 
