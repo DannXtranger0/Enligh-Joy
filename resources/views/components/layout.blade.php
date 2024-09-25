@@ -20,7 +20,7 @@
     <header class="bg-blue-principal-0 w-full fixed px-5 py-5 z-50 ">
         <nav class="flex items-center justify-between ">
             <div class="">
-                <a href="#">
+                <a href="/">
                     <img src="{{asset('images\logo1.svg')}}" class="w-40 min-w-40 max-w-40 hover:scale-110 transition-all duration-150"  alt="logo">
                 </a>
             </div>

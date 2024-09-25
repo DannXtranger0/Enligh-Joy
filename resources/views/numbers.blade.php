@@ -169,7 +169,9 @@
 
         <x-subtitle id="4">Use of Ordinal Numbers</x-subtitle>
 
-        <div class="ml-20 space-y-5 pr-20" >
+        <div class="ml-20 space-y-5 pr-20 relative" >
+            <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 right-0 -z-50 h-[80rem] scale-x-[-1]" >
+
             <p class="paragraph ">In English, ordinal numbers can be expressed in two ways:</p>
             <li class="list-disc paragraph"> <span class="title text-lg">Written form:</span> They can be written out as words, for example, "twenty-first."</li>
 
@@ -285,7 +287,9 @@
 
         <x-subtitle id="6">Examples</x-subtitle>
 
-        <section class="space-y-10 ">
+        <section class="space-y-10 relative">
+            <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 right-0 -z-50 h-[60rem] " >
+
             <div class="rounded-lg border-2 border-purple-principal-0 p-5 space-y-5 w-2/3 mx-auto ">
                 <p class="paragraph">I live on the <span class="title text-lg">fourth</span>  floor of the building.</p>
                 <p class="paragraph">The <span class="title text-lg">ninth</span> chapter of the story reveals a big twist.</p>
