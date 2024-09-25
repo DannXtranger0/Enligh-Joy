@@ -1,6 +1,6 @@
- @props(['color', 'start', 'finish', 'number_question', 'a', 'b', 'c'])
+@props(['color', 'start', 'finish', 'number_question', 'a', 'b', 'c'])
 
-<div id="question-{{ $number_question }}" class="question border-3 rounded-md space-y-5 px-5 py-2" style="border: 3px solid purple;">
+<div id="question-{{ $number_question }}" class="question border-3 rounded-md space-y-5 px-5 py-2 relative" style="border: 3px solid purple;">
     <p class="paragraph font-medium">{{ $start }} <input type="text" disabled class="border-b-2 border-black w-10 disabled:bg-transparent outline-none"> {{ $finish }}</p>
 
     <div class="flex items-center space-x-4">
@@ -17,10 +17,13 @@
         <input type="radio" name="question-{{ $number_question }}" id="q{{ $number_question }}-c" value="{{ $c }}" style="accent-color: {{ $color }}" class="scale-150">
         <label for="q{{ $number_question }}-c" class="paragraph">{{ $c }}</label>
     </div>
+
+    <!-- Contenedor para las imágenes en la esquina derecha -->
+    <div class="absolute top-2 right-2">
+        <img id="icon-{{ $number_question }}" class="w-5 inline hidden" alt="">
+    </div>
 </div>
 
- 
- 
 
 
 

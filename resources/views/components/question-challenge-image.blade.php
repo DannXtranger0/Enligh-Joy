@@ -22,7 +22,11 @@
          <input type="radio" name="question-{{ $number_question }}" id="q{{ $number_question }}-c" value="{{ $c }}" style="accent-color: {{ $color }}" class="scale-150">
          <label for="q{{ $number_question }}-c" class="paragraph">{{ $c }}</label>
      </div>
- 
+     
+       <!-- Contenedor para las imágenes en la esquina derecha -->
+    <div class="absolute top-2 right-2">
+        <img id="icon-{{ $number_question }}" class="w-5 inline hidden" alt="">
+    </div>
      
  </div>
 

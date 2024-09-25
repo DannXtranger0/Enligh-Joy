@@ -1,3 +1,4 @@
+
  <x-verb-to-be-challenge>
     <x-title>Choose The Correct Option</x-title>
     
@@ -8,7 +9,7 @@
         
         <x-question-challenge 
             number_question="1"
-            start="1.She"
+            start="1. She"
             finish="my sister"
             a="am"
             b="is"
@@ -95,7 +96,7 @@
             c="am not"
             color="#5F3A84"
         />
-        
+
         <div class="flex items-center space-x-4 mt-4">
             <button class="btn-verify">Verify</button>
             <div class="results border-2 border-red-600 px-6 left-64 w-1/4 relative p-4 rounded hidden">
@@ -123,7 +124,6 @@
             document.querySelector('.btn-verify').addEventListener('click', function (event) {
                 event.preventDefault(); // Evita que el formulario se envíe
 
-                // Inicializo contadores en 0
                 let correctCount = 0;
                 let incorrectCount = 0;
 
@@ -131,28 +131,20 @@
                 for (let questionNumber in correctAnswers) {
                     const selectedAnswer = document.querySelector(`input[name='question-${questionNumber}']:checked`);
                     const questionDiv = document.getElementById(`question-${questionNumber}`);
-                    let icon = questionDiv.querySelector('img'); // Selecciona la imagen existente
-
-                    // Si no existe la imagen, la creamos
-                    if (!icon) {
-                        icon = document.createElement('img');
-                        icon.style.width = '20px'; 
-                        icon.style.position = 'relative'; 
-                        icon.style.right = '-70vw'; 
-                        icon.style.top = '-11vw'; // Espa
-                        questionDiv.appendChild(icon); // Agregar la imagen al div
-                    }
+                    const icon = document.getElementById(`icon-${questionNumber}`); // Selecciona la imagen correspondiente
 
                     if (selectedAnswer) {
                         const answerValue = selectedAnswer.value;
 
                         if (answerValue === correctAnswers[questionNumber]) {
                             questionDiv.style.border = '3px solid #1CED49'; // Respuesta correcta
-                            icon.src = '{{asset('images/correct.png')}}'; // Ruta a la imagen de check
+                            icon.src = '{{ asset('images/correct.png') }}'; // Ruta a la imagen de check
+                            icon.style.display = 'inline'; // Mostrar la imagen
                             correctCount++;
                         } else {
                             questionDiv.style.border = '3px solid #912F2F'; // Respuesta incorrecta
-                            icon.src = '{{asset('images/incorrect.png')}}'; // Ruta a la imagen de X
+                            icon.src = '{{ asset('images/incorrect.png') }}'; // Ruta a la imagen de X
+                            icon.style.display = 'inline'; // Mostrar la imagen
                             incorrectCount++;
                         }
                     } else {
@@ -176,6 +168,4 @@
             });
         });
     </script>
-</x-verb-to-be-challenge> 
-
-
+</x-verb-to-be-challenge>
