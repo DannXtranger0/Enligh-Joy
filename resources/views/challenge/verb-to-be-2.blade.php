@@ -53,9 +53,9 @@
     
     <script>
         document.querySelector('.btn-verify').addEventListener('click', function(event) {
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault(); 
     
-            // Correct answers for each blank
+          
             const correctAnswers = [
                 ["are", "am", "am", "is", "is", "is", "am", "are"], // Dialogue 1
                 ["are", "are", "are","is", "are", "are", "are","are"], // Dialogue 2
@@ -69,14 +69,14 @@
             dialogues.forEach((dialogue, dialogueIndex) => {
                 const inputs = dialogue.querySelectorAll('input');
                 inputs.forEach((input, index) => {
-                    const userAnswer = input.value.trim().toLowerCase(); // Trim and lowercase user input
-                    const correctAnswer = correctAnswers[dialogueIndex][index]; // Get the correct answer
+                    const userAnswer = input.value.trim().toLowerCase(); 
+                    const correctAnswer = correctAnswers[dialogueIndex][index]; 
     
                     if (userAnswer === correctAnswer) {
                         score++;
-                        input.style.borderColor = '#1CED49'; // Correct answer
+                        input.style.borderColor = '#1CED49'; // Correct 
                     } else {
-                        input.style.borderColor = 'red'; // Incorrect answer
+                        input.style.borderColor = 'red'; // Incorrect 
                     }
                 });
             });

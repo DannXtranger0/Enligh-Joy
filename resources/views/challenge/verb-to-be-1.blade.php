@@ -147,8 +147,10 @@
                             icon.style.display = 'inline'; // Mostrar la imagen
                             incorrectCount++;
                         }
-                    } else {
-                        incorrectCount++; // Contar como incorrecta si no se selecciona respuesta
+
+                    // } else {
+                    //     incorrectCount++; // Contar como incorrecta si no se selecciona respuesta
+
                     }
                 }
                 
@@ -156,7 +158,7 @@
                 const resultText = document.getElementById('result-text');
                 resultText.innerHTML = `
                     <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
-                    <span class="text-green-600">¡Corrects!: ${correctCount}</span>`;
+                    <span class="text-green-600">¡Corrects!: ${correctCount} / 9 </span>`;
                 
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');
@@ -168,4 +170,5 @@
             });
         });
     </script>
+    
 </x-verb-to-be-challenge>
