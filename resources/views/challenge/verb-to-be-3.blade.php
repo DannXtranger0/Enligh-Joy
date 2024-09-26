@@ -118,10 +118,12 @@
             <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence8">
 
             <section class="flex justify-around">
-                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'we')">we</button>
-                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'are')">are</button>
-                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'not')">not</button>
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'friends')">friends</button>
+                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'we')">we</button>
+     
+                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'not')">not</button>
+                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'are')">are</button>
+            
             </section>
         </article>
 
@@ -132,9 +134,9 @@
             <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence9">
 
             <section class="flex justify-around">
+                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence9', 'not')">not</button>
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence9', 'he')">he</button>
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence9', 'is')">is</button>
-                <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence9', 'not')">not</button>
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence9', 'ready')">ready</button>
             </section>
         </article>
@@ -158,12 +160,12 @@
         document.getElementById('sentence-form').addEventListener('submit', function(event) {
             event.preventDefault();
             const correctAnswers = [
-                "my friends are",
+                "my friends are they",
                 "we are good students",
                 "they are at home now",
-                "is she at home?",
-                "are they going to the park?",
-                "are you going where?",
+                "is she at home ?",
+                "are they going to the park ?",
+                "are you going where ?",
                 "I am not hungry",
                 "we are not friends",
                 "he is not ready"

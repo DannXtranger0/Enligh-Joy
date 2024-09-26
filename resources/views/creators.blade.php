@@ -47,11 +47,11 @@
             <article class="w-72 shadow-md mx-auto rounded-lg">
                 <img src="{{asset('images/man.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
-                    <h2 class="title">Jair Tiller</h2>
+                    <h2 class="title">Alexander Loperena</h2>
                     <p>Me gusta tanto el back-end como el front-end</p>
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>jairlopezlozano@gmail.com</p>
+                        <p>sauna05@gmail.com</p>
                     </div>
                 </div>
             </article>
