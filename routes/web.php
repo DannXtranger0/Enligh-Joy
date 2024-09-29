@@ -55,6 +55,10 @@ Route::get('/numbers-lesson', function () {
    return view('numbers');
 });
 
+Route::get('/articles-lesson', function () {
+   return view('articles');
+});
+
 
 //  Route::get("/", function () {
 //     return view("enviroment");

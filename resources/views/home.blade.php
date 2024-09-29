@@ -376,7 +376,7 @@
                             title="Numbers"
                             image="images/numbers.png"
                             description="One, Two, Three..."
-                            link="#"
+                            link="/numbers-lesson"
                             alt="Imagen de los números"
                         />
                     </div>
@@ -406,7 +406,7 @@
                         title="Articles"
                         image="images\articles.png"
                         description="A, An and The"
-                        link="#"
+                        link="/articles-lesson"
                         alt="Imagen del verbo To Be"
                         />
                     </div>
