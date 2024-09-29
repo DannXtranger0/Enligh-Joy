@@ -347,9 +347,21 @@
             <p class="paragraph mb-8">Start learning English from the basics with our lessons!</p>
         
             <div class="slider-container  pt-8 pb-10 relative overflow-hidden mx-4 sm:mx-6 md:mx-12 lg:mx-24">
-                <div class="slider ml-4   flex ">
+                <div class="slider ml-4 transition-all  duration-500 flex ">
                     {{-- Primer slider --}}
-                    <div class="card   flex-none w-full sm:w-1/2 md:w-1/3 p-2">
+                    
+                    <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
+                        <x-card-lesson
+                        title="Enviroment"
+                        image="images/enviroment-img.png"
+                        description="Caring for our planet"
+                        link="/enviroment"
+                        alt="Imagen del verbo To Be"
+                        />
+                    </div>
+                    
+                    
+                    <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
                         <x-card-lesson
                             title="Verb To Be"
                             image="images/verb-tobe.png"
@@ -381,41 +393,47 @@
         
                     <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
                         <x-card-lesson
-                            title="Present Simple"
-                            image="images/present-simple.jpg"
-                            description="I like music, You love comics..."
-                            link="/present-simple-lesson"
-                            alt="Imagen del presente simple"
+                        title="Routines"
+                        image="images\routines.png"
+                        description="I always wake up at 7AM"
+                        link=""
+                        alt="Imagen del verbo To Be"
                         />
                     </div>
-        
-                    <div class="card   flex-none w-full sm:w-1/2 md:w-1/3 p-2">
-                        <x-card-lesson
-                            title="Verb To Be"
-                            image="images/verb-tobe.png"
-                            description="I, You, He, She..."
-                            link="/verb-to-be-lesson"
-                            alt="Imagen del verbo To Be"
-                        />
-                    </div>
-                    <div class="card   flex-none w-full sm:w-1/2 md:w-1/3 p-2">
-                        <x-card-lesson
-                            title="Verb To Be"
-                            image="images/verb-tobe.png"
-                            description="I, You, He, She..."
-                            link="/verb-to-be-lesson"
-                            alt="Imagen del verbo To Be"
-                        />
-                    </div>
+
                     <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
                         <x-card-lesson
-                            title="Present Simple"
-                            image="images/present-simple.jpg"
-                            description="I like music, You love comics..."
-                            link="/present-simple-lesson"
-                            alt="Imagen del presente simple"
+                        title="Articles"
+                        image="images\articles.png"
+                        description="A, An and The"
+                        link="#"
+                        alt="Imagen del verbo To Be"
                         />
                     </div>
+
+                    <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
+                        <x-card-lesson
+                        title="Past Simple"
+                        image="images/past.png"
+                        description="Talk about what happened before"
+                        link="#"
+                        alt="Imagen del verbo To Be"
+                        />
+                    </div>
+
+                    <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
+                        <x-card-lesson
+                        title="Future Simple"
+                        image="images\future.png"
+                        description="Describe your plans and predictions"
+                        link=""
+                        alt="Imagen del verbo To Be"
+                        />
+                    </div>
+
+
+        
+                 
 
                 </div>
             </div>
@@ -515,9 +533,7 @@
 
     </main>
 
-
     {{-- Tips para aprender ingles --}}
-
 
     <section class="px-5 space-y-36 -my-14 relative mb-5">
         <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 left-0 -z-50 h-[80rem]" >

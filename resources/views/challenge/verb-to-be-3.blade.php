@@ -10,13 +10,13 @@
         <article class="border-[3px] border-blue-principal-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-blue-principal-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">1</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence1">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent text-center outline-none" id="sentence1">
 
             <section class="flex justify-around">
-                <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'they')">they</button>
-                <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'are')">are</button>
-                <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'my')">my</button>
                 <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'friends')">friends</button>
+                <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'are')">are</button>
+                <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'they')">they</button>
+                <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence1', 'my')">my</button>
             </section>
         </article>
 
@@ -24,7 +24,7 @@
         <article class="border-[3px] border-blue-principal-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-blue-principal-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">2</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence2">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence2">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence2', 'we')">we</button>
@@ -38,7 +38,7 @@
         <article class="border-[3px] border-blue-principal-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-blue-principal-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">3</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence3">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence3">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-blue-principal-0 hover:bg-blue-principal-0 hover:scale-105" onclick="addWord('sentence3', 'they')">they</button>
@@ -48,13 +48,13 @@
             </section>
         </article>
 
-        <h3 class="paragraph text-[#1CEDB1] font-semibold">Affirmative</h3>
+        <h3 class="paragraph text-[#1CEDB1] font-semibold">Question</h3>
 
         <!-- Sentence 4 -->
         <article class="border-[3px] border-[#1CEDB1] rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-[#1CEDB1] h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">4</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence4">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence4">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-[#1CEDB1] hover:bg-[#1CEDB1] hover:scale-105" onclick="addWord('sentence4', 'she')">she</button>
@@ -69,7 +69,7 @@
         <article class="border-[3px] border-[#1CEDB1] rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-[#1CEDB1] h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">5</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence5">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence5">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-[#1CEDB1] hover:bg-[#1CEDB1] hover:scale-105" onclick="addWord('sentence5', 'they')">they</button>
@@ -84,7 +84,7 @@
         <article class="border-[3px] border-[#1CEDB1] rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-[#1CEDB1] h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">6</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence6">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence6">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-[#1CEDB1] hover:bg-[#1CEDB1] hover:scale-105" onclick="addWord('sentence6', 'you')">you</button>
@@ -101,7 +101,7 @@
         <article class="border-[3px] border-orange-smooth-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-orange-smooth-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">7</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence7">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence7">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence7', 'I')">I</button>
@@ -115,7 +115,7 @@
         <article class="border-[3px] border-orange-smooth-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-orange-smooth-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">8</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence8">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence8">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence8', 'friends')">friends</button>
@@ -131,7 +131,7 @@
         <article class="border-[3px] border-orange-smooth-0 rounded-md space-y-7 px-5 py-2 relative">
             <p class="absolute flex items-center justify-center bg-orange-smooth-0 h-10 aspect-square rounded-full text-white title text-xl -left-5 -top-5">9</p>
 
-            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 w-full bg-transparent outline-none" id="sentence9">
+            <input type="text" disabled class="paragraph px-10 border-b-2 border-gray-600 text-center w-full bg-transparent outline-none" id="sentence9">
 
             <section class="flex justify-around">
                 <button type="button" class="btn bg-orange-smooth-0 hover:bg-orange-smooth-0 hover:scale-105" onclick="addWord('sentence9', 'not')">not</button>
@@ -165,7 +165,7 @@
                 "they are at home now",
                 "is she at home ?",
                 "are they going to the park ?",
-                "are you going where ?",
+                "where are you going ?",
                 "I am not hungry",
                 "we are not friends",
                 "he is not ready"

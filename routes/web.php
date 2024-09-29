@@ -51,9 +51,9 @@ Route::get('/present-simple-challenge/1', function () {
 
 
 
-// Route::get('/numbers-lesson', function () {
-//    return view('numbers');
-// });
+Route::get('/numbers-lesson', function () {
+   return view('numbers');
+});
 
 
 //  Route::get("/", function () {
