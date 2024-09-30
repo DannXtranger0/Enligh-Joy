@@ -20,20 +20,10 @@
                />
 
                <x-index-element 
-               id="#3"
-               text="Use of Definite Article"
-               />
-               
-               <x-index-element 
                id="#4"
                text="Indefinite Article"
                />
                
-               <x-index-element 
-               id="#5"
-               text="Use of Indefinite Article"
-               />
-
                <x-index-element 
                id="#6"
                text="More Examples"
