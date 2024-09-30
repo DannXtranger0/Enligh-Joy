@@ -10,7 +10,7 @@
 
             <img src="{{asset('images\leafs\leaf-index.png')}}" alt="" class="absolute opacity-25 top-16 -z-20">
                <x-index-element 
-               id="21"
+               id="#1"
                text="What are"
                />
 
@@ -93,7 +93,7 @@
 
                 <article class="flex flex-col justify-center items-center w-96 space-y-3" >
                     <h3 class="paragraph font-semibold " >Places in the city.</h3>
-                    <div class="flex flex-col justibg-[#FEFEFE]  shadow-md w-80 h-56 rounded-lg p-2  text-center">
+                    <div class="flex flex-col justify-center items-center  bg-[#FEFEFE]  shadow-md w-80 h-56 rounded-lg p-2  text-center">
                         <img src="{{asset('images\articles\4.png')}}" alt="" class="h-36">
                         <p class="paragraph">They are in<span class="font-medium">the park.</span></p>
                     </div>
@@ -104,7 +104,7 @@
 
         {{-- Indefinite ARticles --}}
 
-        <x-subtitle id="4 ">Indefinite Articles</x-subtitle>
+        <x-subtitle id="4">Indefinite Articles</x-subtitle>
 
         <p class="ml-20 paragraph">There are 3 indefinite articles when we are going to write in English, two of them are for a singular form <span class="font-semibold">(a, an)</span> and one to be used when referring to the plural form <span class="font-semibold">(some)</span>.</p>
 
@@ -120,13 +120,13 @@
 
             <div class="bg-gradient-to-r from-[#92D777] to-[#67C6A8] w-2/3 h-36 rounded-lg flex flex-col justify-center items-center space-y-10">
                 <p class="paragraph">When describing a person's profession</p>
-                <p class="paragraph text-white"><span class="font-semibold text-paragraph-color-0">A smartphone</span> can be very useful.</p>
+                <p class="paragraph text-white">She is <span class="font-semibold text-paragraph-color-0">a doctor</span> </p>
             </div>
-
         
             <div class="bg-gradient-to-r from-[#B0E455] to-[#97D971] w-2/3 h-[10rem] rounded-lg flex flex-col justify-center items-center space-y-10 text-center">
                 <p class="paragraph">When we talk about something in general and not about something specific.</p>
-                <p class="paragraph text-white">She is<span class="font-semibold text-paragraph-color-0">a doctor</span> </p>
+                <p class="paragraph text-white"><span class="font-semibold text-paragraph-color-0">A smartphone</span> can be very useful.
+                </p>
             </div>
         </article>
 
@@ -140,10 +140,18 @@
         
         <p class="ml-20 paragraph">We use both 'a' and 'an' in the same way, but when we use 'a', it is used in front of a consonant and 'an' when the next word begins with a vowel (a, e, i, o, u).</p>
 
+        <div>
+            <div class="relative">
+                <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-[35rem] left-0 -z-50 h-[80rem] " >
 
-        <section class="flex space-y-24 -space-x-10 justify-center items-start mt-10">
+            </div>
+        </div>
+
+        <section class="flex space-y-24 -space-x-10 justify-center items-start mt-10 relative">
+            
+
          
-            <div class="w-1/2 bg-[#FEFEFE]  rounded-lg shadow-md space-y-5">
+            <div class="w-1/2 bg-[#FEFEFE]  rounded-lg shadow-md space-y-5 p-5">
                 <h3 class="paragraph text-2xl text-center">A</h3>
 
                 <li class="paragraph">A cat is sleeping on the couch.</li>
@@ -154,7 +162,7 @@
             </div>
 
 
-            <div class="w-1/2 bg-[#FEFEFE]  rounded-lg shadow-md space-y-5">
+            <div class="w-1/2 bg-[#FEFEFE]  rounded-lg shadow-md space-y-5 p-5">
                 <h3 class="paragraph text-2xl text-center">An</h3>
 
                 <li class="paragraph">An apple a day keeps the doctor away.</li>
@@ -177,8 +185,11 @@
         
         <p class="ml-20 paragraph">It is a determiner that is used to talk about a non-specific amount of something, whether several in the case of <span class="font-bold">plural countables</span> , or something in the case of <span class="font-bold">uncountable nouns</span>.</p>
 
-
-        <section class="flex space-y-56 -space-x-10 justify-center items-start mt-16">
+        <div class="relative">
+            <img src="{{asset('images\leafs\leaf-index.png')}}" alt="" class="absolute opacity-25 top-16 -z-20">
+        </div>
+        <section class="flex space-y-56 -space-x-10 justify-center items-start mt-16 relative">
+            
          
             <div class="w-1/2 bg-[#FEFEFE] p-4  rounded-lg shadow-md space-y-5">
                 <h3 class="paragraph text-2xl text-center">Plural countable nouns
