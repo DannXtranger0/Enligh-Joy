@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
     <title>{{$title}}</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <style>
         html {
             scroll-behavior: smooth; 

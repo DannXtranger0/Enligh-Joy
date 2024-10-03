@@ -77,7 +77,7 @@
             <x-card-challenge
             title="Articles"
             image="images\articles.png"
-            link="#"
+            link="/articles-challenge/1"
             alt="Imagen del verbo To Be"
             />
         </section>

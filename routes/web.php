@@ -49,6 +49,11 @@ Route::get('/present-simple-challenge/1', function () {
    return view('challenge.present-simple-1');
 });
 
+Route::get('/articles-challenge/1', function () {
+   return view('challenge.articles-challenge-1');
+});
+
+
 
 
 Route::get('/numbers-lesson', function () {

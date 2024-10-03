@@ -403,7 +403,7 @@
 
                     <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
                         <x-card-lesson
-                        title="Articles"
+                        title="TheArticles"
                         image="images\articles.png"
                         description="A, An and The"
                         link="/articles-lesson"
