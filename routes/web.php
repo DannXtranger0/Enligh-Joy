@@ -60,6 +60,12 @@ Route::get('/numbers-lesson', function () {
    return view('numbers');
 });
 
+
+Route::get('/numbers-challenge/1', function () {
+   return view('challenge.numbers-challenge-1');
+});
+
+
 Route::get('/routines-lesson', function () {
    return view('routines');
 });

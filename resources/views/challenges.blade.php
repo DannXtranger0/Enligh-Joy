@@ -39,7 +39,7 @@
             <x-card-challenge
             title="Numbers"
             image="images\numbers.png"
-            link="#"
+            link="/numbers-challenge/1"
             alt="Imagen del verbo To Be"
             />
 

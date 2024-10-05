@@ -68,7 +68,9 @@
         </section>
 
 
-        <section class="ml-48 px-10">
+        <section class="ml-48 px-10 relative">
+            <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 right-0 -z-50 h-[80rem]" >
+
         
            {{-- Primera Tabla --}}   
            <div class="flex justify-center my-10">
@@ -137,7 +139,8 @@
 
     {{-- Third Mini-Banner --}}
 
-    <section class="bg-gradient-to-r from-[#ffd782] via-[#3E3D76] to-[#3E3D76] flex items-center justify-around px-28 ml-52 mt-24  ">
+    <section class="bg-gradient-to-r from-[#ffd782] via-[#3E3D76] to-[#3E3D76] flex items-center justify-around px-28 ml-52 mt-24 relative ">
+        <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-52 right-0 -z-50 h-[78rem] scale-x-[-1]" >
 
         <div class="text-center mr-5  ">
             <x-subtitle id="4">Routines in the Night</x-subtitle>
