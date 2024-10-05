@@ -60,6 +60,10 @@ Route::get('/numbers-lesson', function () {
    return view('numbers');
 });
 
+Route::get('/routines-lesson', function () {
+   return view('routines');
+});
+
 Route::get('/articles-lesson', function () {
    return view('articles');
 });

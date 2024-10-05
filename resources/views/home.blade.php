@@ -396,7 +396,7 @@
                         title="Routines"
                         image="images\routines.png"
                         description="I always wake up at 7AM"
-                        link=""
+                        link="/routines-lesson"
                         alt="Imagen del verbo To Be"
                         />
                     </div>
