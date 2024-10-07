@@ -123,17 +123,17 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const correctAnswers = {
-                1: 'Drink',
-                2: 'runs',
-                3: 'dance',
-                4: 'does',
-                5: 'Do',
-                6: "doesn't have",
-                7: 'has',
-                8: 'take',
-                9: 'works',
-                10: 'does',
-            };
+            1: '7', 
+            2: '1th', 
+            3: 'One hundred', 
+            4: '18', 
+            5: 'Thirty-second', 
+            6: '20th', 
+            7: '101', 
+            8: '56th', 
+            9: 'Forty-nine', 
+            10: 'Eighty-seven' 
+        };
 
             const totalQuestions = Object.keys(correctAnswers).length;
 
