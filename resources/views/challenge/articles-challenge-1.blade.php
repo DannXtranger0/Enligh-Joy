@@ -112,13 +112,13 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
            const correctAnswers = {
-            1: 'The', 
+            1: 'An', 
             2: 'An', 
             3: 'A', 
             4: 'A', 
-            5: 'A', 
+            5: 'The', 
             6: 'A', 
-            7: 'A',
+            7: 'The',
             8: 'An' 
         };
             const totalQuestions = Object.keys(correctAnswers).length;
@@ -170,7 +170,7 @@
                 const resultText = document.getElementById('result-text');
                 resultText.innerHTML = `
                     <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
-                    <span class="text-green-600">¡Corrects!: ${correctCount} / 9</span>`;
+                    <span class="text-green-600">¡Corrects!: ${correctCount} / 8</span>`;
                 
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');

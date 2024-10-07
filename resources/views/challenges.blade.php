@@ -32,7 +32,7 @@
             <x-card-challenge
             title="Verb To Be"
             image="images/verb-tobe.png"
-            link="#"
+            link="/verb-to-be-challenge/1"
             alt="Imagen del verbo To Be"
             />
 
@@ -46,7 +46,7 @@
             <x-card-challenge
             title="Present Simple"
             image="images\present-simple.jpg"
-            link=""
+            link="/present-simple-challenge/1"
             alt="Imagen del verbo To Be"
         />
         </section>
@@ -59,14 +59,7 @@
         </div>
 
         <section class="flex justify-center space-x-10 ">
-            
-            <x-card-challenge
-            title="Routine"
-            image="images\present-simple.jpg"
-            link=""
-            alt="Imagen del verbo To Be"
-        />
-
+        
             <x-card-challenge
             title="Possesive Adjectives"
             image="images/verb-tobe.png"

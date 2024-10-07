@@ -1,7 +1,7 @@
 <x-numbers-challenge>
     <x-title>Choose The Correct Option</x-title>
 
-    <p class="ml-20 paragraph">Look carefully at the images and choose the correct answer for each question.</p>
+    <p class="ml-20 paragraph">Look carefully at the number and choose the correct one.</p>
 
     <form action="" class="my-10 space-y-10">
         @csrf
@@ -22,7 +22,7 @@
      img="images\challenges\numbers\2.png"
      a="11th"
      b="9th"
-     c="1th"
+     c="1st"
      color="#5F3A84"
      />
 
@@ -124,12 +124,12 @@
         document.addEventListener('DOMContentLoaded', function () {
             const correctAnswers = {
             1: '7', 
-            2: '1th', 
+            2: '1st', 
             3: 'One hundred', 
-            4: '18', 
+            4: '80', 
             5: 'Thirty-second', 
             6: '20th', 
-            7: '101', 
+            7: '1000', 
             8: '56th', 
             9: 'Forty-nine', 
             10: 'Eighty-seven' 
@@ -184,7 +184,7 @@
                 const resultText = document.getElementById('result-text');
                 resultText.innerHTML = `
                     <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
-                    <span class="text-green-600">¡Corrects!: ${correctCount} / 9</span>`;
+                    <span class="text-green-600">¡Corrects!: ${correctCount} /10</span>`;
                 
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');

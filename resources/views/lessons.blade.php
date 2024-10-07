@@ -80,7 +80,7 @@
                 title="Routines"
                 image="images\routines.png"
                 description="I always wake up at 7AM"
-                link=""
+                link="/routines-lesson"
                 alt="Imagen del verbo To Be"
                 />
 
@@ -88,7 +88,7 @@
                 title="Articles"
                 image="images\articles.png"
                 description="A, An and The"
-                link="#"
+                link="/articles-lesson"
                 alt="Imagen del verbo To Be"
                 />
 
