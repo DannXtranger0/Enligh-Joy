@@ -106,23 +106,21 @@
      <div class="result-icon" style="position: absolute; top: 10px; right: 10px;">
         <img id="icon-{{ $number_question }}" style="display: none; width: 20px;" alt="">
     </div> --}}
+
     </form>
 
     <script>
         document.addEventListener('DOMContentLoaded', function () {
-            const correctAnswers = {
-                1: 'Drink',
-                2: 'runs',
-                3: 'dance',
-                4: 'does',
-                5: 'Do',
-                6: "doesn't have",
-                7: 'has',
-                8: 'take',
-                9: 'works',
-                10: 'does',
-            };
-
+           const correctAnswers = {
+            1: 'The', 
+            2: 'An', 
+            3: 'A', 
+            4: 'A', 
+            5: 'A', 
+            6: 'A', 
+            7: 'A',
+            8: 'An' 
+        };
             const totalQuestions = Object.keys(correctAnswers).length;
 
             document.querySelector('.btn-verify').addEventListener('click', function (event) {
