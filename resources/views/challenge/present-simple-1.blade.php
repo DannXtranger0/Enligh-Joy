@@ -9,7 +9,7 @@
         <x-question-challenge-image 
             number_question="1"
             start="1.He"
-            finish="to much water"
+            finish="too much water"
             a="Drink"
             b="Drinkes"
             c="Drinks"
@@ -132,13 +132,13 @@
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             const correctAnswers = {
-                1: 'Drink',
+                1: 'Drinks',
                 2: 'runs',
                 3: 'dance',
-                4: 'does',
+                4: "doesn't",
                 5: 'Do',
                 6: "doesn't have",
-                7: 'has',
+                7: 'have',
                 8: 'take',
                 9: 'works',
                 10: 'does',
@@ -193,7 +193,7 @@
                 const resultText = document.getElementById('result-text');
                 resultText.innerHTML = `
                     <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
-                    <span class="text-green-600">¡Corrects!: ${correctCount} / 9</span>`;
+                    <span class="text-green-600">¡Corrects!: ${correctCount} / 10</span>`;
                 
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');

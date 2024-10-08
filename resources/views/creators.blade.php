@@ -20,8 +20,9 @@
             <article class="w-72 shadow-md mx-auto rounded-lg">
                 <img src="{{asset('images/man.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
-                    <h2 class="title">Robin Jimenez</h2>
-                    <p>Vive tu vida sin pensar en el que dirán</p>
+                    <h2 class="title text-center">Robin Jimenez</h2>
+                    <p class="paragraph text-center font-semibold">Lead Web Designer</p>
+                    {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
                         <p>robindannjf@gmail.com</p>
