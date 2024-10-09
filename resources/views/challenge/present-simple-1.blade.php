@@ -198,10 +198,13 @@
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');
 
-                // // Redirigir si todas las respuestas son correctas
-                // if (correctCount === totalQuestions) {
-                //     window.location.href = '/present-simple-challenge/2'; 
-                // }
+                // Redirigir si todas las respuestas son correctas
+                if (correctCount === totalQuestions) {
+                    setTimeout(function() {
+                        window.location.href = '/'; 
+                    }, 7000); 
+                }
+
             });
         });
     </script>

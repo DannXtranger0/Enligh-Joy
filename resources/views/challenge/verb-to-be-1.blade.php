@@ -163,9 +163,11 @@
                 // Hacer visible el contenedor de resultados
                 document.querySelector('.results').classList.remove('hidden');
 
-                // Redirigir si todas las respuestas son correctas
+               
                 if (correctCount === totalQuestions) {
-                    window.location.href = '/verb-to-be-challenge/2'; 
+                    setTimeout(function() {
+                        window.location.href = '/verb-to-be-challenge/2'; 
+                    }, 7000); 
                 }
             });
         });
