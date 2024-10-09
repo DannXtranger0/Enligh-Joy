@@ -52,7 +52,7 @@
                     <p>Me gusta tanto el back-end como el front-end</p>
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>sauna05@gmail.com</p>
+                        <p>alcasec@gmail.com</p>
                     </div>
                 </div>
             </article>
