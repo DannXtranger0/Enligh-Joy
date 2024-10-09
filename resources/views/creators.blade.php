@@ -46,7 +46,7 @@
 
             
             <article class="w-72 shadow-md mx-auto rounded-lg">
-                <img src="{{asset('images/man.png')}}" class="w-fit" alt="">
+                <img src="{{asset('images/creators/alexander.jgp')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
                     <h2 class="title">Alexander Loperena</h2>
                     <p>Me gusta tanto el back-end como el front-end</p>
