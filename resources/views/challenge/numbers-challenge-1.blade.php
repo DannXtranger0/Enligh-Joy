@@ -120,80 +120,69 @@
     </div> --}}
     </form>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            const correctAnswers = {
-            1: '7', 
-            2: '1st', 
-            3: 'One hundred', 
-            4: '80', 
-            5: 'Thirty-second', 
-            6: '20th', 
-            7: '1000', 
-            8: '56th', 
-            9: 'Forty-nine', 
-            10: 'Eighty-seven' 
-        };
+       <script>
+          document.addEventListener('DOMContentLoaded', function () {
+    const correctAnswers = {
+        1: '7', 
+        2: '1st', 
+        3: 'One hundred', 
+        4: '80', 
+        5: 'Thirty-second', 
+        6: '20th', 
+        7: '1000', 
+        8: '56th', 
+        9: 'Forty-nine', 
+        10: 'Eighty-seven' 
+    };
 
-            const totalQuestions = Object.keys(correctAnswers).length;
+    const totalQuestions = Object.keys(correctAnswers).length;
 
-            document.querySelector('.btn-verify').addEventListener('click', function (event) {
-                event.preventDefault(); // Evita que el formulario se envíe
+    document.querySelector('.btn-verify').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevent form submission
 
-                // Inicializo contadores en 0
-                let correctCount = 0;
-                let incorrectCount = 0;
+        // Initialize counters
+        let correctCount = 0;
+        let incorrectCount = 0;
 
-                // Verifica las respuestas
-                for (let questionNumber in correctAnswers) {
-                    const selectedAnswer = document.querySelector(`input[name='question-${questionNumber}']:checked`);
-                    const questionDiv = document.getElementById(`question-${questionNumber}`);
-                    const icon = document.getElementById(`icon-${questionNumber}`); // Selecciona la imagen correspondiente
+      
+        for (let questionNumber in correctAnswers) {
+            const selectedAnswer = document.querySelector(`input[name='question-${questionNumber}']:checked`);
+            const questionDiv = document.getElementById(`question-${questionNumber}`);
+            const icon = document.getElementById(`icon-${questionNumber}`);
 
-                    // // Si no existe la imagen, la creamos
-                    // if (!icon) {
-                    //     icon = document.createElement('img');
-                    //     icon.style.width = '20px'; // Ajusta el tamaño de la imagen
-                    //     icon.style.position = 'relative'; // Posicionamiento relative
-                    //     icon.style.right = '-70vw'; // Espaciado desde la derecha
-                    //     icon.style.top = '-11vw'; // Espaciado desde la parte superior
-                    //     questionDiv.appendChild(icon); // Agregar la imagen al div
-                    // }
+            if (selectedAnswer) {
+                const answerValue = selectedAnswer.value;
 
-                    if (selectedAnswer) {
-                        const answerValue = selectedAnswer.value;
-
-                        if (answerValue === correctAnswers[questionNumber]) {
-                            questionDiv.style.border = '3px solid #1CED49'; // Respuesta correcta
-                            icon.src = '{{ asset('images/correct.png') }}'; // Ruta a la imagen de check
-                            icon.style.display = 'inline'; // Mostrar la imagen
-                            correctCount++;
-                        } else {
-                            questionDiv.style.border = '3px solid #912F2F'; // Respuesta incorrecta
-                            icon.src = '{{ asset('images/incorrect.png') }}'; // Ruta a la imagen de X
-                            icon.style.display = 'inline'; // Mostrar la imagen
-                            incorrectCount++;
-                        }
-
-                    // } else {
-                    //     incorrectCount++; // Contar como incorrecta si no se selecciona respuesta
-                     }
+                if (answerValue === correctAnswers[questionNumber]) {
+                    questionDiv.style.border = '3px solid #1CED49'; 
+                    icon.src = '{{ asset('images/correct.png') }}'; 
+                    icon.style.display = 'inline'; 
+                    correctCount++;
+                } else {
+                    questionDiv.style.border = '3px solid #912F2F'; 
+                    icon.src = '{{ asset('images/incorrect.png') }}'; 
+                    icon.style.display = 'inline'; // Show image
+                    incorrectCount++;
                 }
-                
-                // Mostrar resultados
-                const resultText = document.getElementById('result-text');
-                resultText.innerHTML = `
-                    <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
-                    <span class="text-green-600">¡Corrects!: ${correctCount} /10</span>`;
-                
-                // Hacer visible el contenedor de resultados
-                document.querySelector('.results').classList.remove('hidden');
-
-                // // Redirigir si todas las respuestas son correctas
-                // if (correctCount === totalQuestions) {
-                //     window.location.href = '/present-simple-challenge/2'; 
-                // }
-            });
-        });
-    </script>
+            }
+        }
+        
+  
+        const resultText = document.getElementById('result-text');
+        resultText.innerHTML = `
+            <span class="text-red-600">¡Errors!: ${incorrectCount}</span><br>
+            <span class="text-green-600">¡Corrects!: ${correctCount} /10</span>`;
+        
+       
+        document.querySelector('.results').classList.remove('hidden');
+    
+        if (correctCount === totalQuestions) {
+            setTimeout(function() {
+                window.location.href = '/'; 
+            }, 7000); 
+        }
+        
+    });
+});
+        </script>
 </x-numbers-challenge>
