@@ -14,11 +14,10 @@
             <img src="{{asset("images/icons/estrella.svg")}}" alt="" class="h-9">
         </div>
 
-
         <section class="grid grid-cols-3 px-20 gap-10 ">
 
             <article class="w-72 shadow-md mx-auto rounded-lg">
-                <img src="{{asset('images/man.png')}}" class="w-fit" alt="">
+                <img src="{{asset('images\creators\robin1.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
                     <h2 class="title text-center">Robin Jimenez</h2>
                     <p class="paragraph text-center font-semibold">Lead Web Designer</p>
@@ -32,7 +31,7 @@
 
             
             <article class="w-72 shadow-md mx-auto rounded-lg">
-                <img src="{{asset('images/women.png')}}" class="w-fit" alt="">
+                <img src="{{asset('images\creators\wendy1.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
                     <h2 class="title">Wendy Navarro</h2>
                     <p>Me gusta tanto el back-end como el front-end</p>
@@ -46,7 +45,7 @@
 
             
             <article class="w-72 shadow-md mx-auto rounded-lg">
-                <img src="{{asset('images/creators/alexander.jgp')}}" class="w-fit" alt="">
+                <img src="{{asset('images\creators\alexander1.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
                     <h2 class="title">Alexander Loperena</h2>
                     <p>Me gusta tanto el back-end como el front-end</p>
@@ -59,9 +58,9 @@
 
 
             <article class="w-72 shadow-md mx-auto rounded-lg">
-                <img src="{{asset('images/man.png')}}" class="w-fit" alt="">
+                <img src="{{asset('images\creators\leidi1.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
-                    <h2 class="title">Robin Jimenez</h2>
+                    <h2 class="title">Leidi Lizcano</h2>
                     <p>Vive tu vida sin pensar en el que dirán</p>
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
@@ -74,7 +73,7 @@
 
             
             <article class="w-72 shadow-md mx-auto rounded-lg">
-                <img src="{{asset('images/man.png')}}" class="w-fit" alt="">
+                <img src="{{asset('images\creators\jair1.png')}}" class="w-fit" alt="">
                 <div class="px-3 space-y-3 py-3 bg-white">
                     <h2 class="title">Jair Tiller</h2>
                     <p>Me gusta tanto el back-end como el front-end</p>
