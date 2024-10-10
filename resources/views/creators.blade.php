@@ -10,7 +10,7 @@
             <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-1/2 left-0 -z-50 h-[40rem]" >
 
             <img src="{{asset("images/icons/estrella.svg")}}" alt="" class="h-9">
-            <h1 class="title text-5xl">Software analysis and development</h1>
+            <h1 class="title text-5xl">SOFTWARE ANALYSIS AND DEVELOPMENT</h1>
             <img src="{{asset("images/icons/estrella.svg")}}" alt="" class="h-9">
         </div>
 
@@ -38,7 +38,7 @@
                     {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>robindannjf@gmail.com</p>
+                        <p>epiayujairtiler@gmail.com</p>
                     </div>
                 </div>
             </article>
@@ -53,7 +53,7 @@
                     {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>robindannjf@gmail.com</p>
+                        <p>alexandersauna05@gmail.com</p>
                     </div>
                 </div>
             </article>
@@ -66,7 +66,7 @@
                     {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>robindannjf@gmail.com</p>
+                        <p>wendynavarro641@gmail.com</p>
                     </div>
                 </div>
             </article>
@@ -80,7 +80,7 @@
                     {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>robindannjf@gmail.com</p>
+                        <p>lizcanoleidi@gmail.com</p>
                     </div>
                 </div>
             </article>
@@ -94,7 +94,7 @@
                     {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>robindannjf@gmail.com</p>
+                        <p>luisgilballestero@gmail.com</p>
                     </div>
                 </div>
             </article>
@@ -121,7 +121,7 @@
                     {{-- <p class="text-center">Vive tu vida sin pensar en el que dirán</p> --}}
                     <div class="flex space-x-5">
                         <img src="{{asset('images\icons\gmail.png')}} " class="w-10" alt="">
-                        <p>robindannjf@gmail.com</p>
+                        <p>joseandressolano2003@gmail.com</p>
                     </div>
                 </div>
             </article>
