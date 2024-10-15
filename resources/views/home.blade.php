@@ -30,7 +30,7 @@
                     
                     <div class="card flex-none w-full sm:w-1/2 md:w-1/3 p-2">
                         <x-card-lesson
-                        title="Enviroment"
+                        title="Environment"
                         image="images/enviroment-img.png"
                         description="Caring for our planet"
                         link="/enviroment"
@@ -230,7 +230,7 @@
         />
 
         <x-tip
-        title="Total immersion"
+        title="Total inmersion"
         description="Try to immerse yourself in the language completely: change the language on your phone, listen to music in English, and try to think in English."
         image="images\tips\concentrada.png"
         />

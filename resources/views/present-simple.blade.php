@@ -11,7 +11,7 @@
             <img src="{{asset('images\leafs\leaf-index.png')}}" alt="" class="absolute opacity-25 top-16 -z-20">
                <x-index-element 
                id="#what-is"
-               text="What is"
+               text="What is it?"
                />
 
                <x-index-element 

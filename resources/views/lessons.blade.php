@@ -103,7 +103,9 @@
             <p class="title text-white text-2xl font-semibold">Advanced</p>
         </div>
 
-        <section class="grid grid-cols-3 justify-center px-20 gap-10  relative">
+        <div class="flex justify-center">
+            
+        <section class="grid grid-cols-2 justify-center px-20 gap-40  relative">
             <img src="{{asset('images\hoja-grande.png')}}" alt="" class="absolute -top-56 left-0 -z-50 h-[40rem]" >
 
             <x-card-lesson
@@ -123,6 +125,7 @@
         />
 
         </section>
+    </div>
 
     </main>
 

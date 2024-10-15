@@ -1,9 +1,9 @@
-<x-layout title="Enviroment">
+<x-layout title="Environment">
 
     {{-- Siempre empieza con pt-24 --}}
     <main class="pt-24">
         <aside class="fixed border-r-4 border-blue-principal-0 h-screen   w-52 ">
-            <h1 class="title text-xl my-5 text-center">The Enviroment</h1>
+            <h1 class="title text-xl my-5 text-center">The Environment</h1>
 
             <div class="space-y-6 px-5 relative">
 
@@ -15,7 +15,7 @@
 
                <x-index-element 
                id="#how-to"
-               text="How to take care of the enviroment"
+               text="How to take care of the environment"
                />
                
                <x-index-element 
@@ -32,7 +32,7 @@
 
             <div class="bg-blue-principal-0 px-5 my-10 space-x-5 w-[50rem] h-12 flex items-center rounded-lg">
                 <img src="{{asset('images\icons\estrella.svg')}}" alt="" class="w-8">
-                <h3 class="title text-4xl  text-white">The enviroment we live in</h3>
+                <h3 class="title text-4xl  text-white">The environment we live in</h3>
             </div>        
             
             <p class="ml-20 paragraph">Promoting environmental education and awareness is key to addressing these challenges.<br><br>
@@ -73,7 +73,7 @@
 
                     <x-enviroment-1
                     title="Conservation"
-                    text="TThe preservation and protection of natural resources to prevent degradation."
+                    text="The preservation and protection of natural resources to prevent degradation."
 
                     img="images\enviroment\conservation.png"
                     />
